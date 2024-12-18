@@ -1,5 +1,16 @@
 "use strict";
 
+// blog header
+let scroll = document.querySelector(".blog-header");
+
+window.addEventListener(`scroll`, () => {
+  if (this.scrollY >= 200) {
+    scroll.classList.add("show-header");
+  } else {
+    scroll.classList.remove("show-header");
+  }
+});
+
 $(`document`).ready(() => {
   // categories
   $(".categories .owl-carousel").owlCarousel({
@@ -22,8 +33,15 @@ $(`document`).ready(() => {
         items: 4,
       },
       1200: {
-        items: 5,
+        items: 6,
       },
     },
   });
+});
+
+// AOS ANIMATION ON SCROLL
+AOS.init({
+  duration: 1000,
+  easing: "ease",
+  once: true,
 });

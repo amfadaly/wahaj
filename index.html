@@ -8,12 +8,13 @@
     <link rel="icon" href="images/logo.svg" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/aos.min.css" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <!-- start header ------- -->
-    <div class="header py-3 bg-light">
+    <div class="header py-2">
       <div class="container">
         <nav>
           <div class="navbar navbar-expand-lg">
@@ -37,6 +38,9 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#destinations">الوجهات</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html">المدونة</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#contant">اتصل بنا</a>
@@ -64,12 +68,20 @@
     <div class="main-section mt-3">
       <div class="container d-flex align-items-center p-3">
         <div class="row">
-          <div class="col-xxl-5 col-xl-6 ol-lg-6">
+          <div class="col-lg-8">
             <div class="title px-lg-5 text-white">
-              <h1>رحلتك المثالية تبدأ هنا.. استكشف سحر المملكة مع وَهَــــــج..</h1>
-              <p>انطلق في رحلة لا تُنسى واستكشف أجمل الوجهات السياحية في المملكة</p>
-              <div class="mt-4 col-12">
-                <a href="#" class="btn text-white rounded-3 btn-primary px-5 p-2">حمل التطبيق</a>
+              <h1>خذ وقتك، واستكشف الرياض على هونك</h1>
+              <p>مع تطبيق وهج بين يديك, اكتشف أفضل الاماكن السياحية والترفيهية فى مدينتك</p>
+              <div class="mt-4 col-xxl-8 col-lg-6 col-8">
+                <a href="#" class="btn text-white rounded-3 btn-primary px-5 p-3 w-100">ابدأ الاكتشاف الان</a>
+              </div>
+              <div class="d-flex mt-3">
+                <a href="#" class="btn">
+                  <img src="images/icons/linkden.svg" alt="" />
+                </a>
+                <a href="#" class="btn">
+                  <img src="images/icons/twitter.svg" alt="" />
+                </a>
               </div>
             </div>
           </div>
@@ -78,28 +90,29 @@
     </div>
 
     <!-- start services  -->
-    <section class="services mt-5 pt-5" id="services">
+    <section class="services mt-5 pt-5" id="services" data-aos="fade-up">
       <div class="container">
-        <div class="row my-4">
+        <div class="title text-center">
+          <h6>الخدمات</h6>
+          <h2 class="text-h2">أفضل ما فى تطبيق وهج</h2>
+        </div>
+        <div class="row my-5">
           <div class="col-lg-4 col-md-6 mb-3">
-            <a href="#" class="btn box d-block">
-              <img src="images/icons/search-status.svg" class="img-fluid" alt="search" />
-              <h4 class="my-2 col-lg-9">بحث شامل وسريع عن الوجهات السياحية</h4>
-              <p>استكشف بسرعة أفضل المواقع السياحية في المملكة عبر واجهة سهلة الاستخدام.</p>
+            <a href="#" class="btn box d-block text-center">
+              <img src="images/icons/search-status.svg" class="img-fluid mb-3" alt="icon" />
+              <h4>اكتشف وجهات كثيرة <br />ومثيرة</h4>
             </a>
           </div>
           <div class="col-lg-4 col-md-6 mb-3">
-            <a href="#" class="btn box d-block">
-              <img src="images/icons/note-favorite.svg" class="img-fluid" alt="search" />
-              <h4 class="my-2 col-lg-9">تخطيط رحلات متكامل في أفضل الأماكن</h4>
-              <p>احصل على أدوات متكاملة لتخطيط رحلتك مع تفاصيل عن الإقامة والمطاعم والفعاليات.</p>
+            <a href="#" class="btn box d-block text-center">
+              <img src="images/icons/note-favorite.svg" class="img-fluid mb-3" alt="icon" />
+              <h4>جرب سكن, رحلات, وتجارب لا تنسى بسهولة</h4>
             </a>
           </div>
           <div class="col-lg-4 col-md-6 mb-3">
-            <a href="#" class="btn box d-block">
-              <img src="images/icons/tag-2.svg" class="img-fluid" alt="" />
-              <h4 class="my-2 col-lg-9">عروض وتخفيضات حصرية للمستخدمين</h4>
-              <p>استمتع بتخفيضات حصرية تعزز تجربتك السياحية بتكلفة أقل.</p>
+            <a href="#" class="btn box d-block text-center">
+              <img src="images/icons/tag-2.svg" class="img-fluid mb-3" alt="icon" />
+              <h4>الوصول الى أماكن بسرعة تسعدك وترفع جودة حياتك</h4>
             </a>
           </div>
         </div>
@@ -107,88 +120,65 @@
     </section>
 
     <!-- start destinations  -->
-    <section class="destinations mt-5 pt-5" id="destinations">
+    <section class="destinations mt-5 pt-5" id="destinations" data-aos="fade-up">
       <div class="container">
         <div class="title text-center">
           <h6 class="text-h6">الوجهات</h6>
-          <h2 class="fw-bolder text-h2">اكتشف واجهات المملكة</h2>
+          <h2 class="fw-bolder text-h2">اكتشف جمال الرياض!</h2>
         </div>
-        <div class="filter-category">
-          <ul class="links nav gap-3 justify-content-center nav-tabs mt-4 border-0" id="myTab">
-            <li class="nav-item">
-              <button class="nav-link active rounded-pill" id="riyadh-tab" data-bs-toggle="tab" data-bs-target="#riyadh">الرياض</button>
-            </li>
-            <li class="nav-item">
-              <button class="nav-link rounded-pill" id="jeddah-tab" data-bs-toggle="tab" data-bs-target="#jeddah">جدة</button>
-            </li>
-            <li class="nav-item">
-              <button class="nav-link rounded-pill" id="alula-tab" data-bs-toggle="tab" data-bs-target="#alula">العلا</button>
-            </li>
-            <li class="nav-item">
-              <button class="nav-link rounded-pill" id="dammam-tab" data-bs-toggle="tab" data-bs-target="#dammam">الدمام</button>
-            </li>
-            <li class="nav-item">
-              <button class="nav-link rounded-pill" id="tabuk-tab" data-bs-toggle="tab" data-bs-target="#tabuk">تبوك</button>
-            </li>
-          </ul>
-        </div>
-        <div class="tab-content mt-5">
-          <div class="tab-pane show active" id="riyadh">
-            <div class="row">
-              <div class="col-lg-5 col-md-6 mb-3">
-                <div class="box position-relative">
-                  <img src="images/filtter/image-1.jpg" class="img-fluid w-100" alt="" />
-                  <div class="desc px-3">
-                    <p class="m-0">السعودية</p>
-                    <p class="m-0">الرياض</p>
-                  </div>
-                </div>
-                <div class="row mt-3">
-                  <div class="col-7">
-                    <div class="box position-relative h-100">
-                      <img src="images/filtter/image-2.jpg" class="img-fluid h-100" alt="" />
-                      <div class="desc px-3">
-                        <p class="m-0">السعودية</p>
-                        <p class="m-0">الرياض</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-5">
-                    <div class="box position-relative">
-                      <img src="images/filtter/image-3.jpg" class="img-fluid" alt="" />
-                      <div class="desc px-3">
-                        <p class="m-0">السعودية</p>
-                        <p class="m-0">الرياض</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <div class="row mt-5">
+          <div class="col-lg-5 col-md-6 mb-3">
+            <div class="box position-relative">
+              <img src="images/destination-1.png" class="img-fluid w-100" alt="" />
+              <div class="desc px-3">
+                <p class="m-0">وادي حنيفة</p>
+                <p class="m-0">الرياض</p>
               </div>
-              <div class="col-lg-4 col-md-6 mb-3">
-                <div class="box position-relative">
-                  <img src="images/filtter/image-4.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="row mt-3">
+              <div class="col-7">
+                <div class="box position-relative h-100">
+                  <img src="images/destination-2.png" class="img-fluid h-100" alt="" />
                   <div class="desc px-3">
-                    <p class="m-0">السعودية</p>
+                    <p class="m-0">برج الممكلة</p>
                     <p class="m-0">الرياض</p>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 mb-3">
-                <div class="d-lg-block d-flex align-content-center gap-3">
-                  <div class="box position-relative">
-                    <img src="images/filtter/image-5.jpg" class="img-fluid" alt="" />
-                    <div class="desc px-3">
-                      <p class="m-0">السعودية</p>
-                      <p class="m-0">الرياض</p>
-                    </div>
+              <div class="col-5">
+                <div class="box position-relative">
+                  <img src="images/destination-3.png" class="img-fluid" alt="" />
+                  <div class="desc px-3">
+                    <p class="m-0">سوق الزل</p>
+                    <p class="m-0">الرياض</p>
                   </div>
-                  <div class="box position-relative mt-lg-3">
-                    <img src="images/filtter/image-6.jpg" class="img-fluid" alt="" />
-                    <div class="desc px-3">
-                      <p class="m-0">السعودية</p>
-                      <p class="m-0">الرياض</p>
-                    </div>
-                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="box position-relative">
+              <img src="images/destination-4.png" class="img-fluid" alt="" />
+              <div class="desc px-3">
+                <p class="m-0">الدرعية التاريخية</p>
+                <p class="m-0">الرياض</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3">
+            <div class="d-lg-block d-flex align-content-center gap-3">
+              <div class="box position-relative">
+                <img src="images/destination-5.png" class="img-fluid" alt="" />
+                <div class="desc px-3">
+                  <p class="m-0">رياض بارك مول</p>
+                  <p class="m-0">الرياض</p>
+                </div>
+              </div>
+              <div class="box position-relative mt-lg-3">
+                <img src="images/destination-6.png" class="img-fluid" alt="" />
+                <div class="desc px-3">
+                  <p class="m-0">قصر المصمك</p>
+                  <p class="m-0">الرياض</p>
                 </div>
               </div>
             </div>
@@ -198,7 +188,7 @@
     </section>
 
     <!-- start categories  -->
-    <section class="categories mt-5 pt-5" id="categories">
+    <section class="categories mt-5 pt-5" id="categories" data-aos="fade-up">
       <div class="container">
         <div class="title text-center">
           <h6 class="text-h6">الوجهات</h6>
@@ -207,57 +197,51 @@
         <div class="owl-carousel owl-theme mt-5">
           <div class="item text-center">
             <img src="images/slider/img-1.png" class="img-fluid" alt="" />
-            <h5>المواقع التاريخية</h5>
+            <h5>شعبي</h5>
           </div>
           <div class="item text-center">
             <img src="images/slider/img-2.png" class="img-fluid" alt="" />
-            <h5>السياحة الثقافية</h5>
+            <h5>مطاعم</h5>
           </div>
           <div class="item text-center">
             <img src="images/slider/img-3.png" class="img-fluid" alt="" />
-            <h5>المدن الحديثة</h5>
+            <h5>مجمعات</h5>
           </div>
           <div class="item text-center">
             <img src="images/slider/img-4.png" class="img-fluid" alt="" />
-            <h5>الطبيعة والحدائق</h5>
+            <h5>قهاوي</h5>
           </div>
           <div class="item text-center">
             <img src="images/slider/img-5.png" class="img-fluid" alt="" />
-            <h5>الصحراء</h5>
+            <h5>لياقة</h5>
           </div>
           <div class="item text-center">
             <img src="images/slider/img-6.png" class="img-fluid" alt="" />
-            <h5>الشواطئ</h5>
+            <h5>ألعاب</h5>
+          </div>
+          <div class="item text-center">
+            <img src="images/slider/img-3.png" class="img-fluid" alt="" />
+            <h5>مجمعات</h5>
           </div>
         </div>
       </div>
     </section>
 
     <!-- start features -->
-    <section class="features mt-5 pt-5">
+    <section class="features mt-5 pt-5" data-aos="fade-up">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-lg-6 mb-4">
             <div class="title">
               <h6 class="text-h6">المميزات</h6>
-              <h2 class="fw-bolder text-h2">دليلك المتكامل لاستكشاف أجمل معالم المملكة</h2>
-              <p>تطبيقك الشامل لاكتشاف أفضل الوجهات السياحية، الأنشطة الممتعة، والتراث الثقافي في أنحاء المملكة</p>
-              <a href="#" class="btn rounded-3 btn-primary px-5 p-2">استكشف الآن </a>
+              <h2 class="fw-bolder text-h2">دليلك المتكامل لاستكشاف أجمل معالم مدينتك</h2>
+              <p class="col-lg-8">تطبيقك الشامل لاكتشاف أفضل الوجهات السياحية، الأنشطة الممتعة، والتراث الثقافي في أنحاء الرياض</p>
+              <a href="#" class="btn rounded-3 btn-primary px-5 p-3">حمل التطبيق الان</a>
             </div>
           </div>
           <div class="col-lg-6 mb-4 d-flex justify-content-end">
             <div class="box-img position-relative">
-              <img src="images/features.jpg" class="img-fluid" alt="" />
-              <div class="desc bg-white p-3">
-                <div class="d-flex gap-3">
-                  <img src="images/features-img-box.jpg" class="img-fluid" alt="" />
-                  <div class="address">
-                    <h6>اسم المكان</h6>
-                    <p class="m-0">الوصف الوصف الوصف الوصف الوصف</p>
-                    <span><i class="fa-solid fa-location-dot mx-2"></i>العنوان</span>
-                  </div>
-                </div>
-              </div>
+              <img src="images/mockup 1.png" class="img-fluid" alt="" />
             </div>
           </div>
         </div>
@@ -265,23 +249,22 @@
     </section>
 
     <!-- start features -->
-    <section class="features mt-5 pt-5">
+    <section class="features mt-5 pt-5" data-aos="fade-up">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-lg-6 mb-4 d-flex justify-content-end">
             <div class="box-img position-relative">
-              <img src="images/features-2.png" class="img-fluid" alt="" />
+              <img src="images/mockup 2.png" class="img-fluid" alt="" />
             </div>
           </div>
           <div class="col-lg-6 mb-4">
             <div class="title">
               <h6 class="text-h6">المميزات</h6>
-              <h2 class="fw-bolder text-h2">استمتع بعروض وفعاليات بلا حدود في مكان واحد!</h2>
+              <h2 class="fw-bolder text-h2 mb-3">استمتع بعروض وفعاليات بلا حدود في مكان واحد!</h2>
               <p>
-                اكتشف أماكن الإقامة، الفعاليات، وأفضل المطاعم بلمسة واحدة، واجعل رحلتك إلى السعودية تجربة مريحة ومميزة من البداية إلى
-                النهاية
+                اكتشف أماكن الإقامة، الفعاليات، وأفضل المطاعم بلمسة واحدة، واجعل رحلتك إلى الرياض تجربة مريحة ومميزة من البداية إلى النهاية
               </p>
-              <a href="#" class="btn rounded-3 btn-primary px-5 p-2">استكشف الآن </a>
+              <a href="#" class="btn rounded-3 btn-primary px-5 p-3">حمل التطبيق الان</a>
             </div>
           </div>
         </div>
@@ -289,19 +272,31 @@
     </section>
 
     <!-- start explore -->
-    <section class="explore mt-5 pt-5">
+    <section class="explore mt-5 pt-5" data-aos="fade-up">
       <div class="container">
-        <div class="title pt-5">
-          <h2 class="pt-5 mt-lg-4 mt-5 text-white display-4">
-            استكشف كل الأماكن<br />
-            السياحية في المملكة..
-          </h2>
+        <div class="title pt-5 text-center text-white">
+          <h2 class="pt-5 mt-lg-4 mt-5 display-3 fw-bolder">ابقى قريب منا!</h2>
+          <h6 class="fs-3">لا تبعتد عنا، تابع حساباتنا على السوشيال ميديا</h6>
+        </div>
+        <div class="social-media d-flex justify-content-center mt-5 gap-3">
+          <a href="#" class="icon">
+            <img src="images/icons/Apple.svg" class="img-fluid" alt="" />
+          </a>
+          <a href="#" class="icon">
+            <img src="images/icons/snapchat.svg" class="img-fluid" alt="" />
+          </a>
+          <a href="#" class="icon">
+            <img src="images/icons/tiktok.svg" class="img-fluid" alt="" />
+          </a>
+          <a href="#" class="icon">
+            <img src="images/icons/twitter-x.svg" class="img-fluid" alt="" />
+          </a>
         </div>
       </div>
     </section>
 
     <!-- start contant -->
-    <section class="contant mt-5 pt-5" id="contant">
+    <section class="contant mt-5 py-5" id="contant" data-aos="fade-up">
       <div class="container">
         <div class="row justify-content-evenly align-items-center py-5">
           <div class="col-lg-5 mb-3">
@@ -311,9 +306,9 @@
           </div>
           <div class="col-lg-5 mb-3">
             <div class="contact-desc text-white">
-              <div class="text-center">
-                <h2 class="fw-bolder">دعونا نتواصل</h2>
-                <p>نحن هنا لمساعدتك — تواصل معنا في أي وقت!</p>
+              <div class="text-center col-lg-10 m-auto">
+                <h2 class="fw-bolder">أعلن معنا</h2>
+                <p class="lead">أعلن معنا عن أفضل الاماكن السياحية والترفيهية فى مدينتك للتواصل... اكمل هذا النموذج</p>
               </div>
               <form action="">
                 <div class="mb-3">
@@ -332,7 +327,7 @@
                   <label for="" class="form-label">كيف يمكننا المساعدة؟ </label>
                   <textarea name="" id="" rows="5" class="form-control"></textarea>
                 </div>
-                <button class="btn text-white w-100">إرسال</button>
+                <button class="btn text-white w-100 p-3 mt-4">إرسال</button>
               </form>
             </div>
           </div>
@@ -343,7 +338,7 @@
     <!-- start footer -->
     <footer class="footer mt-5 py-5 pt-5" id="contact">
       <div class="container">
-        <div class="row mt-5 justify-content-between">
+        <div class="col-lg-9 row mt-5 justify-content-between">
           <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
             <div class="logo">
               <img src="images/logo.svg" class="img-fluid" alt="" />
@@ -358,37 +353,33 @@
                   hello@Wahag.sa
                 </a>
               </li>
+              <li>
+                <a href="https://wa.me/0534004666">
+                  <img src="images/icons/whatsapp.svg" alt="" />
+                  0534004666
+                </a>
+              </li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-3">
             <h5 class="fw-bold mb-3">العنوان</h5>
-            <p class="col-lg-10">7984 المنارة، المحمدية 3546 الرياض – المملكة العربية السعودية</p>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
-            <h5 class="fw-bold mb-3">تابعنا على حساباتنا</h5>
-            <div class="d-flex">
-              <a href="#" class="btn">
-                <img src="images/icons/linkden.svg" alt="" />
-              </a>
-              <a href="#" class="btn">
-                <img src="images/icons/twitter.svg" alt="" />
-              </a>
-            </div>
+            <p class="col-lg-10">7984 المنارة، المحمدية 3546 <br />الرياض – المملكة العربية السعودية</p>
           </div>
         </div>
         <div class="copyrightd d-block d-md-flex justify-content-between align-items-center">
           <div class="item">
-            <p>© 2024 وهج، جميع الحقوق محفوظة.</p>
+            <a href="#">© 2024 وهج، جميع الحقوق محفوظة.</a>
           </div>
           <div class="d-flex gap-3">
             <a href="#">الشروط والأحكام</a>
-            <a href="#">سياسة الخصوصية</a>
+            <a href="privacy-policy.html">سياسة الخصوصية</a>
           </div>
         </div>
       </div>
     </footer>
 
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
