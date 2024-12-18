@@ -1,13 +1,21 @@
 "use strict";
 
 // blog header
-let scroll = document.querySelector(".blog-header");
-
+let scrollHeader = document.querySelector(".header");
 window.addEventListener(`scroll`, () => {
   if (this.scrollY >= 200) {
-    scroll.classList.add("show-header");
+    scrollHeader.classList.add("show-header");
   } else {
-    scroll.classList.remove("show-header");
+    scrollHeader.classList.remove("show-header");
+  }
+});
+
+let scrollUp = document.querySelector(".scroll-up");
+window.addEventListener(`scroll`, () => {
+  if (this.scrollY >= 200) {
+    scrollUp.classList.add("show-up");
+  } else {
+    scrollUp.classList.remove("show-up");
   }
 });
 

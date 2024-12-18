@@ -169,13 +169,35 @@ a:focus {
   -o-border-radius: 36px;
   font-weight: 600;
 }
-
 /* end services ---- */
 
 /* start destinations --- */
+
+.destinations .box a {
+  display: block;
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+  height: 100%;
+}
+
 .destinations .box img {
-  border-radius: 19.01px;
+  display: block;
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
   width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.destinations .box img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.1);
 }
 .destinations .box .desc {
   position: absolute;
@@ -219,6 +241,7 @@ a:focus {
   border-radius: 76.38px;
   margin-bottom: 15px;
 }
+
 /* start features ------ */
 .features .box-img img {
   border-radius: 62px;
@@ -359,7 +382,6 @@ a:focus {
 .blog-header .navbar-toggler {
   color: #fff !important;
 }
-
 @media (max-width: 991px) {
   .blog-header ul a,
   .blog-header a span {
@@ -397,4 +419,29 @@ a:focus {
   .privacy .item p {
     font-size: 18px;
   }
+}
+
+.scroll-up {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: -40px;
+  padding: 5px 12px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  color: #fff;
+  z-index: 66;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.scroll-up:hover {
+  background-color: var(--second-color);
+  color: #fff;
+}
+.show-up {
+  right: 30px;
 }
