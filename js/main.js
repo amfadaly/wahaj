@@ -54,18 +54,19 @@ AOS.init({
   once: true,
 });
 
-// download system -----------
-
 document.addEventListener("DOMContentLoaded", function () {
   const androidLink = "https://play.google.com/store/apps/details?id=com.wahaj.app";
   const iosLink = "https://apps.apple.com/us/app/wahaj-%D9%88%D9%87%D8%AC/id6499275613";
 
   function detectOS() {
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    const platform = navigator.platform.toLowerCase();
 
     if (/android/i.test(userAgent)) {
       return androidLink;
     } else if (/iPad|iPhone|iPod/i.test(userAgent)) {
+      return iosLink;
+    } else if (platform.indexOf("mac") !== -1) {
       return iosLink;
     } else {
       return androidLink;
