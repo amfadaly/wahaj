@@ -76,7 +76,8 @@
       "email": "Email",
       "phone": "Phone number",
       "help": "How can we help?",
-      "button": "Send"
+      "button": "Send",
+      "successfully": "Your message has been sent successfully!"
     }
   },
   "blog": {

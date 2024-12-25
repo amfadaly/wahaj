@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import DownloadButton from "./DownloadButton";
-import ContactSection from "./ContactSection";
+import ContactUs from "./ContactUs";
 
 function Home() {
   const { t, i18n } = useTranslation();
@@ -246,7 +246,7 @@ function Home() {
         </div>
       </section>
 
-      <ContactSection />
+      <ContactUs />
     </div>
   );
 }
