@@ -35,9 +35,10 @@ const ContactSection = () => {
       email: formData.email,
       phone_number: formData.phone,
       message: formData.message,
+      topic: "General Inquiry",
     };
 
-    // console.log("Data Sent to api:", payload);
+    console.log("Data Sent to api:", payload);
 
     try {
       const response = await axios.post("https://wahaj.dbs.com.sa/contact-us/add-contact-us", payload, {
