@@ -1,0 +1,133 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "services",
+    "destinations": "Destinations",
+    "blog": "Blog",
+    "contact": "Contact Us"
+  },
+  "footer": {
+    "title": "Address",
+    "contact": "Contact",
+    "address": "7783 Ibn Kathir, Sulaymaniyah 4264 Riyadh - Kingdom of Saudi Arabia",
+    "rights": "© 2024 Wahaj, all rights reserved.",
+    "privacy": "privacy policy"
+  },
+  "main": {
+    "title": "Take your time, explore Riyadh on your own",
+    "description": "With the Wahj application in your hands, discover the best tourist and entertainment places in your cityWith the Wahj application in your hands, discover the best tourist and entertainment places in your city",
+    "button": "Start discovering now"
+  },
+  "services": {
+    "title": "Services",
+    "description": "The best of the glow app",
+    "card": {
+      "description": "Discover many exciting destinations",
+      "description2": "Experience lodging, trips, and unforgettable experiences with ease",
+      "description3": "Reaching places quickly that make you happy and raise your quality of life"
+    }
+  },
+  "destinations": {
+    "title": "Destinations",
+    "description": "Discover the beauty of Riyadh!",
+    "card": {
+      "subtitle": "Wadi Hanifa",
+      "kingdom": "Kingdom Tower",
+      "market": "Zal Market",
+      "date": "Historical Diriyah",
+      "park": "Historical Diriyah",
+      "palace": "Al Masmak Palace",
+      "city": "Riyadh"
+    }
+  },
+  "categories": {
+    "title": "Destinations",
+    "description": "A world of experiences",
+    "card": {
+      "name1": "popular",
+      "name2": "Restaurants",
+      "name3": "Complexes",
+      "name4": "Coffees",
+      "name5": "Fitness",
+      "name6": "games",
+      "name7": "Complexes"
+    }
+  },
+  "features": {
+    "title": "Features",
+    "description": "Your complete guide to exploring the most beautiful landmarks in your city",
+    "desc": "Your one-stop app to discover the best tourist destinations, fun activities, and cultural heritage across Riyadh.",
+    "button": "Download application now"
+  },
+  "features2": {
+    "description": "Enjoy unlimited offers and events in one place!",
+    "desc": "Discover accommodations, events, and the best restaurants with just one touch, and make your trip to Riyadh a comfortable and unique experience from start to finish.",
+    "button": "Download application now"
+  },
+  "media": {
+    "title": "Stay close to us!",
+    "desc": "Don't miss out, follow our social media accounts."
+  },
+  "contact": {
+    "title": "Advertise with us",
+    "desc": "Advertise with us the best tourist and entertainment places in your city. To communicate... Complete this form",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone number",
+      "help": "How can we help?",
+      "button": "Send"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "desc": "Discover the world around you with Wahj Blog",
+    "card": {
+      "title": "Cultural and artistic events",
+      "desc": "Participate in art exhibitions, music festivals and theatre performances that combine culture and creativity, such as the Contemporary Art Festival or poetry evenings."
+    },
+    "card2": {
+      "title": "Adventures beyond imagination",
+      "desc": "Live the adventure with skydiving, surfing, or desert safaris. We give you tips on the best places and times to try these activities."
+    },
+    "card3": {
+      "title": "Guide to quiet activities",
+      "desc": "Treat yourself to a day at the spa, or enjoy a yoga session in a quiet, meditative setting. We show you the best options to help you relax."
+    },
+    "card4": {
+      "title": "Best Restaurants and Cafes Around the World",
+      "desc": "We present to you a list of the best restaurants that serve international dishes such as Italian, Asian, and Arabic cuisine. Learn about the most famous dishes that are worth trying."
+    },
+    "card5": {
+      "title": "Fun family activities for everyone",
+      "desc": "Enjoy visiting amusement parks, public parks, and interactive museums that offer an educational and entertaining experience for the whole family."
+    },
+    "card6": {
+      "title": "Plan your trip easily",
+      "desc": "Take advantage of this list of tips for planning a weekend getaway, from choosing the right destination to arranging activities around a convenient schedule."
+    }
+  },
+  "policy": {
+    "title": "privacy policy",
+    "item1": {
+      "title": "Collection and use of information",
+      "desc": "We at Wahj collect the information you provide to us, such as personal data and contact information, in order to improve your tourism experience. This information is used to customize services, provide appropriate offers, and communicate with you regarding your reservations and inquiries. We ensure that your data remains secure and is not shared with third parties except when necessary to provide the service or in accordance with the law."
+    },
+    "item2": {
+      "title": "Information exchange and disclosure",
+      "desc": "We at Wahj platform are keen to protect the privacy of our users, and we do not share your personal information with third parties except in specific cases. Information may be exchanged with trusted partners to provide the required services, such as tourism companies or tour operators, in compliance with regulations and laws. We may also disclose information if we are legally required or to protect the rights of the platform and its users."
+    },
+    "item3": {
+      "title": "Cookies and Third Party Technologies",
+      "desc": "The Wahj platform uses cookies to improve your experience and customize content to suit your needs. These cookies help us analyze how you use the platform and provide personalized services. In addition, third parties, such as analytics or advertising service providers, may use similar technologies to collect data about your interaction with the platform. We ensure that this information is used securely and in accordance with applicable privacy policies. You can control your cookie settings through your browser."
+    },
+    "item4": {
+      "title": "The reason why our site uses or accesses your personal information",
+      "desc": "We use your personal information to provide our services in the best possible way, such as completing reservations, personalizing the tourist experience, and processing requests. We also use it to communicate with you about offers and suggestions that match your preferences. In addition, we access your information to analyze performance, improve services, and ensure the security and reliability of the platform. We are committed to using your information only for authorized purposes and in accordance with our privacy policies and applicable laws."
+    },
+    "item5": {
+      "title": "Protecting the security of your personal information",
+      "desc": "We at Wahj Platform are committed to keeping your personal information secure and protecting it from unauthorized access or illegal use. We use modern encryption technologies and advanced security measures to ensure the confidentiality of your data during its storage and processing. We also periodically review our systems to enhance protection against any security threats. However, we recommend that you keep your login information confidential and not share it with any third party to ensure the security of your data."
+    }
+  }
+}
