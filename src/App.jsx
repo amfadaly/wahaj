@@ -5,6 +5,7 @@ import Blog from "./components/Blog";
 import Footer from "./components/Footer";
 import { useTranslation } from "react-i18next";
 import Policy from "./components/Policy";
+import BlogPage from "./components/BlogPage";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blogPage/:id" element={<BlogPage />}/>
           <Route path="/policy" element={<Policy />} />
         </Routes>
         <Footer />

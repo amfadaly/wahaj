@@ -32,14 +32,28 @@ function Header() {
         <nav>
           <div className="navbar navbar-expand-lg">
             <Link className="navbar-brand logo m-0" to="/">
-              <img src="images/logo.svg" className="img-fluid" alt="logo" />
+              <img src="/images/logo.svg" className="img-fluid" alt="logo" />
             </Link>
-            <button className="navbar-toggler" data-bs-toggle="offcanvas" href="#slideheader" aria-controls="slideheader">
+            <button
+              className="navbar-toggler"
+              data-bs-toggle="offcanvas"
+              href="#slideheader"
+              aria-controls="slideheader"
+            >
               <i className="fa-solid fa-bars fa-xl"></i>
             </button>
-            <div className="offcanvas offcanvas-end offcanvas-slide" tabIndex="-1" id="slideheader">
+            <div
+              className="offcanvas offcanvas-end offcanvas-slide"
+              tabIndex="-1"
+              id="slideheader"
+            >
               <div className="offcanvas-header justify-content-end">
-                <button type="button" className="btn Close" data-bs-dismiss="offcanvas" aria-label="Close">
+                <button
+                  type="button"
+                  className="btn Close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                >
                   <i className="fa-solid fa-xmark fa-2xl"></i>
                 </button>
               </div>
@@ -72,14 +86,24 @@ function Header() {
                   </li>
                 </ul>
                 <div className="d-flex align-items-baseline justify-content-center">
-                  <a className="btn d-flex gap-2" onClick={() => changeLanguage("ar")}>
+                  <a
+                    className="btn d-flex gap-2"
+                    onClick={() => changeLanguage("ar")}
+                  >
                     <span>Ar</span>
-                    <img src="images/Flags.svg" className="img-fluid" alt="" />
+                    <img src="/images/Flags.svg" className="img-fluid" alt="" />
                   </a>
                   <span>|</span>
-                  <a className="btn d-flex gap-2" onClick={() => changeLanguage("en")}>
+                  <a
+                    className="btn d-flex gap-2"
+                    onClick={() => changeLanguage("en")}
+                  >
                     <span>En</span>
-                    <img src="images/Flags-en.svg" className="img-fluid" alt="" />
+                    <img
+                      src="/images/Flags-en.svg"
+                      className="img-fluid"
+                      alt=""
+                    />
                   </a>
                 </div>
               </div>
